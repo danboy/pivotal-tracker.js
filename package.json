@@ -1,0 +1,15 @@
+{
+  "author": "Dan Nawara <dnawara@groupon.com>",
+  "name": "pivotal-tracker",
+  "description": "Pivotal api module",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "~v0.4.10"
+  },
+  "main": "./main",
+  "dependencies": {},
+  "devDependencies": {}
+}
