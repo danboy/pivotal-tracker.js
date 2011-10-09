@@ -4,12 +4,15 @@
   "description": "Pivotal api module",
   "version": "0.0.1",
   "repository": {
-    "url": ""
+    "url": "git@github.com:danboy/pivotal-tracker.js.git"
   },
   "engines": {
     "node": "~v0.4.10"
   },
   "main": "./main",
-  "dependencies": {},
+  "dependencies": {
+    "request": "> 0.0.1"
+    "xml2json": "> 0.0.1"
+  },
   "devDependencies": {}
 }
