@@ -12,14 +12,12 @@ project.
 
 ## Get a project
 
-    Pivotal.getProject(req.params.tracker,req.user.token,function(tracker){
+    Pivotal.getProject( project_id, token, function(tracker){
       console.log(tracker);
-      Pivotal.getCurrentIteration(req.params.tracker,req.user.token,function(iteration){
-        console.log(iteration.iterations);
-        res.render('trackers/show',{
-          title: 'Projects'
-        , tracker: tracker.project
-        , iteration: iteration.iterations
-        });
       });
+    });
+
+## Get current iteration
+    Pivotal.getCurrentIteration( project_id, token,function(iteration){
+      console.log(iteration.iterations);
     });
