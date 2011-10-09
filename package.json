@@ -11,8 +11,8 @@
   },
   "main": "./main",
   "dependencies": {
-    "request": "> 0.0.1"
-    "xml2json": "> 0.0.1"
+      "request": "> 0.0.1"
+    , "xml2json": "> 0.0.1"
   },
   "devDependencies": {}
 }
