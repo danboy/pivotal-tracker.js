@@ -3,6 +3,13 @@
 now you can interact with the tracker api in node. Just kicking off the
 project.
 
+## Add it to your project
+
+  npm install pivotal-tracker
+  
+
+  var Pivotal = require('pivotal-tracker');
+
 ## Get a token
 
     Pivotal.getToken( username,password,function(token){
