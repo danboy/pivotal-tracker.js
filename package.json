@@ -7,7 +7,7 @@
     "url": "git@github.com:danboy/pivotal-tracker.js.git"
   },
   "engines": {
-    "node": "~v0.4.10"
+    "node": ">=v0.4.01"
   },
   "main": "./main",
   "dependencies": {

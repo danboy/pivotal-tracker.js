@@ -1,8 +1,6 @@
 var request = require('request')
     , parse = require('xml2json');
 
-console.log('in pivotal tracker');
-
 Pivotal = {
   getToken: function(username,password,callback){
     self = this;
